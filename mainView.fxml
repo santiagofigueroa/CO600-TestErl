@@ -1,0 +1,19 @@
+<?import com.sun.javafx.scene.control.skin.ToolBarSkin?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:controller="testerl.TestModel" xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <top>
+        <!--TOOLBAR-->
+        <!--TODO: fix problem here.-->
+        <ToolBarSkin alignment="TOP_CENTER">
+            <Button alignment="CENTER_LEFT" fx:id="Record" graphic="">
+
+            </Button>
+        </ToolBarSkin>
+    </top>
+    <!--SHELL/text-editor-->
+    <TextField>
+    </TextField>
+</BorderPane>
